@@ -351,7 +351,7 @@ if s:configuration.enable_bold
 else
   call gruvbox_material#highlight('Function', s:palette.green, s:palette.none)
 endif
-call gruvbox_material#highlight('String', s:palette.green, s:palette.none)
+call gruvbox_material#highlight('String', s:palette.yellow, s:palette.none)
 call gruvbox_material#highlight('Character', s:palette.green, s:palette.none)
 call gruvbox_material#highlight('Constant', s:palette.aqua, s:palette.none)
 call gruvbox_material#highlight('Macro', s:palette.aqua, s:palette.none)
@@ -2139,7 +2139,7 @@ highlight! link typescriptParens Fg
 highlight! link typescriptMethodAccessor OrangeItalic
 highlight! link typescriptVariable Orange
 highlight! link typescriptVariableDeclaration Blue
-highlight! link typescriptTypeReference Yellow
+highlight! link typescriptTypeReference Green
 highlight! link typescriptBraces Fg
 highlight! link typescriptEnumKeyword RedItalic
 highlight! link typescriptEnum Yellow
